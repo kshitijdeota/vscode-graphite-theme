@@ -39,8 +39,10 @@
 }
 ```
 
-## Important: CSS Hacks For Extra Sweet Editor
-Some things in VS Code can't be controlled by settings, but you can install [this plugin](https://github.com/be5invis/vscode-custom-css), then make a file on your computer that will hold your custom CSS, I like to make one in my root called `~/.vscodestyles.css` and then put this everything in [graphite-custom-hacks.css](./graphite-custom-hacks.css) into your file.
+## CSS Hacks/Overrides
+1. Install [this plugin](https://github.com/be5invis/vscode-custom-css).
+1. Make a file on your computer that will hold your custom CSS, `~/.vscodestyles.css`
+1. Then put this everything in [graphite-custom-hacks.css](./graphite-custom-hacks.css) into your file.
 
 Once done, open your command palette and select enable **custom CSS and JS**
 
