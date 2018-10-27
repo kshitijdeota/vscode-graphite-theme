@@ -1,6 +1,6 @@
 # Graphite Theme for VS Code
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/wesbos.theme-cobalt2.svg)](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2)
+[![Version](https://vsmarketplacebadge.apphb.com/version/kd.theme-cobalt2.svg)](https://marketplace.visualstudio.com/items?itemName=kd.theme-cobalt2)
 
 ![Preview](https://raw.githubusercontent.com/kshitijdeota/vscode-graphite-theme/master/images/ss.png)
 
@@ -33,7 +33,7 @@
   // Mac/Linux: file:///Users/YOUR-PC-USERNAME/.vscodestyles.css
   // Windows: file:///C:/Users/YOUR-PC-USERNAME/.vscodestyles.css
   "vscode_custom_css.imports": [
-    "file:///Users/wesbos/.vscodestyles.css"
+    "file:///Users/kd/.vscodestyles.css"
   ],
   "editor.renderWhitespace": "all",
 }
