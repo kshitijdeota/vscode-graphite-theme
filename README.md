@@ -49,18 +49,3 @@ Once done, open your command palette and select enable **custom CSS and JS**
 Finally reload your editor and the Custom CSS should be taking. You can test this by typing into file - the dirty circle should be yellow not white.
 
 **_Note: Reloading custom CSS and JS after every VSCode update is a must!_**
-
-## Contributing
-This is a bit weird, but to get some sort of live feedback for when editing a theme. Please let me know if you have a saner way of doing it
-
-1. Open this repo in your terminal and type `npm install`
-1. Start to watch for change on the repo with `npm start` - this runs a nodemon task for you and will automatically recompile any changes
-1. Open this repo in VS Code
-1. Open your command palette and hit type **VSIX**. Select the one that says **Extensions: Install from VSIX...**
-1. Load the VSIX file that was created a few steps back
-1. Set your editor to use _this_ Cobalt2 theme - it might help to change the name in package.json to something like "Cobalt2 Dev" so you can differentiate from the Cobalt2 you've installed from the marketplace. If you get confused, just delete all traces of Cobalt2 and then load the VSIX.
-1. Go to the debug sidebar `View → Debug`
-1. Press the green arrow beside "Launch Extension"
-1. This will then open a second window.
-1. Make a change, and then hit the refresh button on your debug toolbar - this is in your first editor - not the one that poped open.
-1. Wait a sec, your changes should now be reflected!
