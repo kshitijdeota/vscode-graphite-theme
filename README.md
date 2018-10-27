@@ -1,6 +1,6 @@
 # Graphite Theme for VS Code
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/kd.theme-cobalt2.svg)](https://marketplace.visualstudio.com/items?itemName=kd.theme-cobalt2)
+[![Version](https://vsmarketplacebadge.apphb.com/version/kdpixels.graphite.svg)](https://marketplace.visualstudio.com/items?itemName=kdpixels.graphite)
 
 ![Preview](https://raw.githubusercontent.com/kshitijdeota/vscode-graphite-theme/master/images/ss.png)
 
@@ -10,7 +10,7 @@
 2. Search for `Graphite` - by **KD Pixels**
 3. Click **Install** to install it.
 4. Click **Reload** to reload the your editor
-5. Code > Preferences > Color Theme > **Cobalt2**
+5. Code > Preferences > Color Theme > **Graphite**
 6. Optional: Use the recommended settings below for best experience
 
 ## Recommended Settings
@@ -50,4 +50,4 @@ Once done, open your command palette and select enable **custom CSS and JS**
 
 Finally reload your editor and the Custom CSS should be taking. You can test this by typing into file - the dirty circle should be yellow not white.
 
-**_Note: Reloading custom CSS and JS after every VSCode update is a must!_**
+**_Note: Reload custom CSS and JS after every VSCode update!_**
