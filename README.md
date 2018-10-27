@@ -64,26 +64,3 @@ This is a bit weird, but to get some sort of live feedback for when editing a th
 1. This will then open a second window.
 1. Make a change, and then hit the refresh button on your debug toolbar - this is in your first editor - not the one that poped open.
 1. Wait a sec, your changes should now be reflected!
-
-Whew. Again, if you have an easier way to style these things, let me know!
-
-## I don't like something
-
-First, this theme is new so if something is funky, please open an issue.
-
-These are the things we have control over. If you would like to change something, you can either open a PR and see if I'd like it added, or override the colours in your own settings.json file.
-
-https://code.visualstudio.com/docs/getstarted/theme-color-reference
-
-## Put Cobalt2 in other places!
-
-* [Sublime Text](https://github.com/wesbos/cobalt2)
-* [Atom](https://github.com/wesbos/Cobalt2-atom)
-* [iTerm2](https://github.com/wesbos/Cobalt2-iterm)
-* [Hyper Term](https://github.com/wesbos/hyperterm-cobalt2-theme)
-* [Alfred](https://github.com/wesbos/Cobalt2-Alfred-Theme)
-* [Slack](https://github.com/wesbos/Cobalt2-Slack)
-
-## Thanks
-
-Thanks to WesBos, graphite was ported from Cobalt2.
