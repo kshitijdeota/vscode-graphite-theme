@@ -1,4 +1,5 @@
 /* This makes the dirty tab circle blue */
+.kdpixels-graphite-themes-graphite-json
 .monaco-workbench
   > .part.editor
   > .content
@@ -7,25 +8,26 @@
   .tabs-container
   > .tab.dirty
   .close-editor-action {
-  background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' height='16' width='16'%3E%3Ccircle fill='%231951E4' cx='8' cy='8' r='4'/%3E%3C/svg%3E")
-    50% no-repeat;
+  background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16'%3E%3Ccircle fill='%231951E4' cx='8' cy='8' r='4'/%3E%3C/svg%3E")
+    50% no-repeat !important;
 }
 
+.kdpixels-graphite-themes-graphite-json
 .editor-group-container + .editor-group-container {
   border-left: 1px solid #1951E4 !important;
 }
 
 /* This puts a thin blue border around the found items like Sublime did it */
-.monaco-editor .findMatch,
-.monaco-editor .selectionHighlight {
+.kdpixels-graphite-themes-graphite-json .monaco-editor .findMatch,
+.kdpixels-graphite-themes-graphite-json .monaco-editor .selectionHighlight {
   border: 1px solid #1951E4;
   border-radius: 5px;
   background: transparent;
 }
 
 /* Minimap left border */
-.monaco-editor .minimap .minimap-shadow-visible,
-.monaco-editor .minimap .minimap-shadow-hidden {
+.kdpixels-graphite-themes-graphite-json .monaco-editor .minimap .minimap-shadow-visible,
+.kdpixels-graphite-themes-graphite-json .monaco-editor .minimap .minimap-shadow-hidden {
   background: #c2d9f5;
   position: absolute;
   left: -1px;
@@ -33,47 +35,65 @@
 }
 
 /* This accounts for larger font cutting off - bump up 3px */
-.monaco-workbench > .activitybar > .content .monaco-action-bar .badge .badge-content {
+.kdpixels-graphite-themes-graphite-json
+  .monaco-workbench > .activitybar > .content .monaco-action-bar .badge .badge-content {
   top: 20px !important;
   font-size: 12px;
   font-weight: bold;
 }
 
-.monaco-workbench > .activitybar > .content {
+.kdpixels-graphite-themes-graphite-json
+  .monaco-workbench > .activitybar > .content {
   background: linear-gradient(-180deg, #FFFFFF 0%, #F6F6F6 0.2%, #F6F6F6 99.8%, #FFFFFF 100%) !important;
 }
 
+.kdpixels-graphite-themes-graphite-json
+  .monaco-workbench > .part.editor,
+.kdpixels-graphite-themes-graphite-json
+  .monaco-workbench > .part.sidebar,
+.kdpixels-graphite-themes-graphite-json
+  .monaco-workbench > .part.activitybar {
+  border-top: 1px solid #CDCDCD !important;
+}
+
 /* panel bold fonts for non-retina displays 😉 */
-.monaco-workbench > .part.panel > .title > .panel-switcher-container > .monaco-action-bar .action-item {
+.kdpixels-graphite-themes-graphite-json
+  .monaco-workbench > .part.panel > .title > .panel-switcher-container > .monaco-action-bar .action-item {
   font-weight: bold;
 }
 
-.monaco-workbench > .part.panel.bottom .title {
+.kdpixels-graphite-themes-graphite-json
+  .monaco-workbench > .part.panel.bottom .title {
   background: linear-gradient(-180deg, #FFFFFF 0%, #E5E5E5 5%, #CDCDCD 95%, #A7A6A7 100%) !important;
 }
 
-.monaco-workbench > .part.statusbar {
+.kdpixels-graphite-themes-graphite-json
+  .monaco-workbench > .part.statusbar {
   background: linear-gradient(0deg, #CDCDCD 0%, #E5E5E5 100%) !important;
   font-weight: bold;
 }
 
-.monaco-workbench>.part.editor>.content .editor-group-container>.title .tabs-container>.tab {
+.kdpixels-graphite-themes-graphite-json
+  .monaco-workbench>.part.editor>.content .editor-group-container>.title .tabs-container>.tab {
   border-right: none !important;
 }
 
 /* SCROLLBARS */
 
-.monaco-shell .monaco-scrollable-element > .scrollbar > .slider {
+.kdpixels-graphite-themes-graphite-json
+  .monaco-shell .monaco-scrollable-element > .scrollbar > .slider {
   border-radius: 20px !important;
 }
 
-.monaco-shell .monaco-scrollable-element > .scrollbar.vertical > .slider {
+.kdpixels-graphite-themes-graphite-json
+  .monaco-shell .monaco-scrollable-element > .scrollbar.vertical > .slider {
   border-radius: 20px !important;
   left: 3px !important;
   width: 9px !important;
 }
 
-.monaco-shell .monaco-scrollable-element > .scrollbar.horizontal > .slider {
+.kdpixels-graphite-themes-graphite-json
+  .monaco-shell .monaco-scrollable-element > .scrollbar.horizontal > .slider {
   border-radius: 20px !important;
   height: 9px !important;
 }
