@@ -16,7 +16,7 @@
 
 ```js
 {
-  "editor.fontFamily": "Monaco",
+  "editor.fontFamily": "SF Mono",
   "editor.lineHeight": 25,
   "files.trimTrailingWhitespace": true,
   "prettier.eslintIntegration": true,
