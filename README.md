@@ -16,46 +16,42 @@
 
 ```js
 {
-  "editor.fontFamily": "SF Mono",
-  "editor.lineHeight": 25,
-  "files.trimTrailingWhitespace": true,
-  "prettier.eslintIntegration": true,
-  "editor.cursorWidth": 10,
   "editor.cursorBlinking": "phase",
-  // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
-  // you'll need to change this to an absolute path on your computer
-  "vscode_custom_css.imports": [
-    "file:///Users/kd/.vscodestyles.css"
-  ],
-  "editor.renderWhitespace": "all",
-  "explorer.confirmDelete": false,
-  "editor.tabSize": 2,
-  "explorer.confirmDragAndDrop": false,
-  "editor.minimap.maxColumn": 80,
+  "editor.cursorWidth": 10,
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "SF Mono",
   "editor.fontLigatures": true,
-  "workbench.editor.showTabs": true,
-  "window.zoomLevel": 0,
+  "editor.fontSize": 17
+  "editor.lineHeight": 25,
+  "editor.minimap.maxColumn": 80,
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [80],
   "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
   "editor.wordWrap": "on",
-  "markdown.preview.fontSize": 15,
-  "markdown.preview.lineHeight": 2.1,
-  "terminal.integrated.fontSize": 15,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.trimTrailingWhitespace": true,
   "files.exclude": {
     "**/.vscode": true,
     "**/node_modules": true,
     "**/package-lock.json": true
   },
-  "terminal.integrated.fontWeightBold": "normal",
-  "terminal.integrated.fontFamily": "SFMono Nerd Font",
-  "editor.detectIndentation": false,
-  "editor.rulers": [80],
+  "markdown.preview.fontSize": 15,
+  "markdown.preview.lineHeight": 2.1,
+  "prettier.eslintIntegration": true,
   "terminal.integrated.env.osx": {
     "PATH": "/fake/path:${env:PATH}"
   },
+  "terminal.integrated.fontSize": 15,
+  // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
+  // you'll need to change this to an absolute path on your computer
+  "vscode_custom_css.imports": [
+    "file:///Users/kd/.vscodestyles.css"
+  ],
+  "window.zoomLevel": 0,
+  "workbench.editor.showTabs": true,
   "workbench.fontAliasing": "auto",
-  "editor.fontSize": 17,
-  "breadcrumbs.enabled": false,
-  "editor.wrappingIndent": "indent"
 }
 ```
 
