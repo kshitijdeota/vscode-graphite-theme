@@ -41,7 +41,7 @@
 ## CSS Hacks/Overrides
 1. Install [this plugin](https://github.com/be5invis/vscode-custom-css).
 1. Make a file on your computer that will hold your custom CSS, `~/.vscodestyles.css`
-1. Then put this everything in [graphite-custom-hacks.css](./graphite-custom-hacks.css) into your file.
+1. Then put this everything in [graphite-custom-hacks.css](https://raw.githubusercontent.com/kshitijdeota/vscode-graphite-theme/master/graphite-customhacks.css) into your file.
 
 Open your command palette and select enable **custom CSS and JS**
 
