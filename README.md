@@ -47,6 +47,6 @@ Open your command palette and select enable **custom CSS and JS**
 
 ![Custom CSS/JS Hack](https://raw.githubusercontent.com/kshitijdeota/vscode-graphite-theme/master/images/styles.png)
 
-Finally reload your editor and the Custom CSS should be taking. You can test this by typing into file - the dirty circle should be yellow not white.
+Finally reload your editor and the Custom CSS should be enabled. You can test this by typing into file - the dirty circle should be blue not white.
 
 **_Note: Reload custom CSS and JS after every VSCode update!_**
