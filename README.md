@@ -16,25 +16,46 @@
 
 ```js
 {
-  "workbench.colorTheme": "Graphite",
-  "editor.fontFamily": "SF Mono, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 17,
+  "editor.fontFamily": "Monaco",
   "editor.lineHeight": 25,
-  "editor.letterSpacing": 0.5,
   "files.trimTrailingWhitespace": true,
-  "editor.fontWeight": "400",
   "prettier.eslintIntegration": true,
-  "editor.cursorStyle": "line",
-  "editor.cursorWidth": 5,
-  "editor.cursorBlinking": "solid",
+  "editor.cursorWidth": 10,
+  "editor.cursorBlinking": "phase",
   // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
-  // You'll need to change this to a file URI scheme on your computer: https://en.wikipedia.org/wiki/File_URI_scheme
-  // Mac/Linux: file:///Users/YOUR-PC-USERNAME/.vscodestyles.css
-  // Windows: file:///C:/Users/YOUR-PC-USERNAME/.vscodestyles.css
+  // you'll need to change this to an absolute path on your computer
   "vscode_custom_css.imports": [
     "file:///Users/kd/.vscodestyles.css"
   ],
   "editor.renderWhitespace": "all",
+  "explorer.confirmDelete": false,
+  "editor.tabSize": 2,
+  "explorer.confirmDragAndDrop": false,
+  "editor.minimap.maxColumn": 80,
+  "editor.fontLigatures": true,
+  "workbench.editor.showTabs": true,
+  "window.zoomLevel": 0,
+  "editor.tabCompletion": "on",
+  "editor.wordWrap": "on",
+  "markdown.preview.fontSize": 15,
+  "markdown.preview.lineHeight": 2.1,
+  "terminal.integrated.fontSize": 15,
+  "files.exclude": {
+    "**/.vscode": true,
+    "**/node_modules": true,
+    "**/package-lock.json": true
+  },
+  "terminal.integrated.fontWeightBold": "normal",
+  "terminal.integrated.fontFamily": "SFMono Nerd Font",
+  "editor.detectIndentation": false,
+  "editor.rulers": [80],
+  "terminal.integrated.env.osx": {
+    "PATH": "/fake/path:${env:PATH}"
+  },
+  "workbench.fontAliasing": "auto",
+  "editor.fontSize": 17,
+  "breadcrumbs.enabled": false,
+  "editor.wrappingIndent": "indent"
 }
 ```
 
