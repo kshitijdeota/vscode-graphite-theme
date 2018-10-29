@@ -45,7 +45,7 @@
 
 Open your command palette and select enable **custom CSS and JS**
 
-![Custom CSS/JS Hack](https://d3vv6lp55qjaqc.cloudfront.net/items/0B37352D3s2A2e33353c/Screen%20Shot%202017-09-15%20at%2011.02.49%20AM.png?X-CloudApp-Visitor-Id=26998&v=7ff79bcc)
+![Custom CSS/JS Hack](https://raw.githubusercontent.com/kshitijdeota/vscode-graphite-theme/master/images/styles.png)
 
 Finally reload your editor and the Custom CSS should be taking. You can test this by typing into file - the dirty circle should be yellow not white.
 
