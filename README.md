@@ -5,7 +5,6 @@
 ![Preview](https://raw.githubusercontent.com/kshitijdeota/vscode-graphite-theme/master/images/ss.png)
 
 # Installation
-
 1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
 2. Search for `Graphite` - by **KD Pixels**
 3. Click **Install** to install it.

@@ -4,10 +4,10 @@
 	"type": "light",
 	"colors": {
     // activityBar
-    "activityBar.background"     : "#D5D5D5",
-    "activityBar.border"         : "#D5D5D5",
+    "activityBar.background"     : "#F6F6F6",
+    "activityBar.border"         : "#C2C2C2",
     "activityBar.dropBackground" : "#F9F9F9",
-    "activityBar.foreground"     : "#686868",
+    "activityBar.foreground"     : "#373637",
     "activityBarBadge.background": "#F52A18",
     "activityBarBadge.foreground": "#fff",
     // badge
@@ -36,7 +36,7 @@
     "dropdown.border"    : "#CECECE",
     "dropdown.foreground": "#333333",
     ////////// editor ///////////////////
-    "editor.background"                    : "#FCFDFC", // main background color
+    "editor.background"                    : "#FFF", // main background color
     "editor.foreground"                    : "#000", // main text colour
     "editor.findMatchBackground"           : "#C2D9F5", // Currently found item
     "editor.findMatchHighlightBackground"  : "#C2D9F5", // Other Found Items in the document
@@ -74,7 +74,7 @@
     "list.highlightForeground"        : "#333333",
     "list.hoverBackground"            : "#FFFFFF00",
     "list.hoverForeground"            : "#000000",
-    "list.inactiveSelectionBackground": "#D5D5D5",
+    "list.inactiveSelectionBackground": "#CBCACB",
     "list.inactiveSelectionForeground": "#222222",
     // merge
     "merge.border"                   : "#ffffff00",
@@ -86,7 +86,7 @@
     "merge.incomingHeaderBackground" : "#ffffff00",
     // panel
     "panel.background"             : "#00000010",
-    "panel.border"                 : "#D5D5D5",
+    "panel.border"                 : "#CDCDCD",
     "panelTitle.activeBorder"      : "#222222",
     "panelTitle.activeForeground"  : "#222222",
     "panelTitle.inactiveForeground": "#676767",
@@ -141,18 +141,18 @@
     "selection.background": "#C2D9F5",
 
     // sideBar
-    "sideBar.background"             : "#00000003",
-    "sideBar.border"                 : "#D5D5D5",
-    "sideBar.foreground"             : "#808080",
+    "sideBar.background"             : "#DFDFDF",
+    "sideBar.border"                 : "#C7C7C7",
+    "sideBar.foreground"             : "#373637",
     "sideBarSectionHeader.background": "#bd777703",
     "sideBarSectionHeader.foreground": "#333333",
     "sideBarTitle.foreground"        : "#333333",
     // statusBar
     "statusBar.background"                  : "#D5D5D5",
-    "statusBar.border"                      : "#C5C5C5",
+    "statusBar.border"                      : "#C0C0C0",
     "statusBar.debuggingBackground"         : "#15232D",
     "statusBar.debuggingForeground"         : "#0d3a58",
-    "statusBar.foreground"                  : "#22222280",
+    "statusBar.foreground"                  : "#4D4D4D",
     "statusBar.noFolderBackground"          : "#ECECEC",
     "statusBar.noFolderForeground"          : "#565656",
     "statusBarItem.activeBackground"        : "#C2D9F5",
@@ -161,13 +161,13 @@
     "statusBarItem.prominentHoverBackground": "#0D3A58",
     // tab
     "tab.activeBackground"           : "#FFFFFF",
-    "tab.activeForeground"           : "#000000",
+    "tab.activeForeground"           : "#272627",
     "tab.border"                     : "#FFFFFF",
     "tab.activeBorder"               : "#FFFFFF",
-    "tab.inactiveBackground"         : "#ececec",
-    "tab.inactiveForeground"         : "#565656",
+    "tab.inactiveBackground"         : "#DFDFDF",
+    "tab.inactiveForeground"         : "#272627",
     "tab.unfocusedActiveForeground"  : "#fff",
-    "tab.unfocusedInactiveForeground": "#000",
+    "tab.unfocusedInactiveForeground": "#272627",
     // Git status colors in File Explorer
     "gitDecoration.modifiedResourceForeground"   : "#FF6E00",
     "gitDecoration.deletedResourceForeground"    : "#C90418",
