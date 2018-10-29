@@ -40,18 +40,18 @@
     "editor.foreground"                    : "#000", // main text colour
     "editor.findMatchBackground"           : "#C2D9F5", // Currently found item
     "editor.findMatchHighlightBackground"  : "#C2D9F5", // Other Found Items in the document
-    "editor.findRangeHighlightBackground"  : "#C2D9F5", // WTF is this one for? I don't know
-    "editor.hoverHighlightBackground"      : "#FFBFB0", // hover over something and a popup shows, this highlights that thing
-    "editor.inactiveSelectionBackground"   : "#C2D9F5", // something selected, but have lost focus on the editor
+    "editor.findRangeHighlightBackground"  : "#D5D5D5", // WTF is this one for? I don't know
+    "editor.hoverHighlightBackground"      : "#00000010", // hover over something and a popup shows, this highlights that thing
+    "editor.inactiveSelectionBackground"   : "#D5D5D5", // something selected, but have lost focus on the editor
     "editor.lineHighlightBackground"       : "#C2D9F550", // current line styles
     "editor.lineHighlightBorder"           : "#00000000", // current line styles
     "editorLineNumber.foreground"          : "#22222280",
     "editorLineNumber.activeForeground"    : "#222222",
-    "editor.rangeHighlightBackground"      : "#C2D9F5", // current line styles
-    "editor.selectionBackground"           : "#C2D9F5", // standard Select colour
-    "editor.selectionHighlightBackground"  : "#FFBFB030", // colour of the other matching
+    "editor.rangeHighlightBackground"      : "#D5D5D5", // current line styles
+    "editor.selectionBackground"           : "#C2D9F570", // standard Select colour
+    "editor.selectionHighlightBackground"  : "#FFBFB050", // colour of the other matching
     "editor.wordHighlightStrongBackground" : "#00b06170", // where your cursor currently is
-    "editor.wordHighlightBackground"       : "#C2D9F5",
+    "editor.wordHighlightBackground"       : "#FFBFB050",
     "editorBracketMatch.background"        : "#FFBFB0",
     "editorBracketMatch.border"            : "#00000000",
     "editorCodeLens.foreground"            : "#565656",
