@@ -164,9 +164,9 @@
     "tab.activeForeground"           : "#272627",
     "tab.border"                     : "#FFFFFF",
     "tab.activeBorder"               : "#FFFFFF",
-    "tab.inactiveBackground"         : "#DFDFDF",
+    "tab.inactiveBackground"         : "#F3F3F3",
     "tab.inactiveForeground"         : "#272627",
-    "tab.unfocusedActiveForeground"  : "#fff",
+    "tab.unfocusedActiveForeground"  : "#272627",
     "tab.unfocusedInactiveForeground": "#272627",
     // Git status colors in File Explorer
     "gitDecoration.modifiedResourceForeground"   : "#FF6E00",
@@ -182,10 +182,10 @@
     "textLink.foreground"                 : "#1951E4",
     "textPreformat.foreground"            : "#CE00A0",
     "textSeparator.foreground"            : "#0D3A58",
-    "walkThrough.embeddedEditorBackground": "#ececec",
-    "welcomePage.buttonBackground"        : "#ececec",
-    "welcomePage.buttonHoverBackground"   : "#e3e3e3",
-    "widget.shadow"                       : "#fff"
+    "walkThrough.embeddedEditorBackground": "#ECECEC",
+    "welcomePage.buttonBackground"        : "#ECECEC",
+    "welcomePage.buttonHoverBackground"   : "#E3E3E3",
+    "widget.shadow"                       : "#FFFFFF"
     },
     "tokenColors": [
 		{
